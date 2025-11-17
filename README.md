@@ -1,9 +1,9 @@
-#Caesar Cipher – JavaScript Implementation
+# Caesar Cipher – JavaScript Implementation
 
 This repository contains a clean and robust implementation of the classic Caesar Cipher algorithm.
 The solution supports uppercase/lowercase letters, preserves non-alphabetic characters, and correctly handles both positive and negative shifts through modular arithmetic.
 
-##✨ Features
+## ✨ Features
 
 Works with A–Z and a–z
 
@@ -17,14 +17,14 @@ Linear time complexity O(n)
 
 Readable, interview-friendly functional structure
 
-##🚀 Usage
+## 🚀 Usage
 cifrarCesar("Hello, World!", 3);
 // "Khoor, Zruog!"
 
 cifrarCesar("Khoor, Zruog!", -3);
 // "Hello, World!"
 
-##📁 Project Structure
+## 📁 Project Structure
 
 cifrarCesar.js – main implementation
 
@@ -36,12 +36,12 @@ shift normalization
 
 case preservation
 
-##🧠 Algorithmic Notes
+## 🧠 Algorithmic Notes
 
 The cipher processes each character exactly once, giving it O(n) time complexity and O(1) extra space.
 Modulo arithmetic ensures correct wrap-around within the alphabet.
 
-##📜 What is the Caesar Cipher?
+## 📜 What is the Caesar Cipher?
 
 The Caesar Cipher is one of the oldest known encryption techniques. Each letter in the plaintext is shifted by a fixed number of positions in the alphabet.
 
@@ -51,7 +51,7 @@ B → E
 C → F
 …
 
-##🔧 Running the Code
+## 🔧 Running the Code
 
 You can run the file with Node.js:
 
@@ -60,6 +60,6 @@ node cifrarCesar.js
 
 No external dependencies are required.
 
-##📄 License
+## 📄 License
 
 MIT License.
